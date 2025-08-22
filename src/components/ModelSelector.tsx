@@ -42,6 +42,58 @@ const providers: AIProvider[] = [
     color: 'bg-orange-500'
   },
   {
+    id: 'google',
+    name: 'Google',
+    models: [
+      'gemini-2.0-flash-exp',
+      'gemini-1.5-pro',
+      'gemini-1.5-flash',
+      'gemini-1.5-flash-8b',
+      'gemini-1.0-pro'
+    ],
+    color: 'bg-red-500'
+  },
+  {
+    id: 'xai',
+    name: 'xAI (Grok)',
+    models: [
+      'grok-beta',
+      'grok-vision-beta'
+    ],
+    color: 'bg-gray-500'
+  },
+  {
+    id: 'deepseek',
+    name: 'DeepSeek',
+    models: [
+      'deepseek-chat',
+      'deepseek-coder',
+      'deepseek-reasoner'
+    ],
+    color: 'bg-purple-500'
+  },
+  {
+    id: 'mistral',
+    name: 'Mistral AI',
+    models: [
+      'mistral-large-latest',
+      'mistral-medium-latest',
+      'mistral-small-latest',
+      'codestral-latest'
+    ],
+    color: 'bg-indigo-500'
+  },
+  {
+    id: 'cohere',
+    name: 'Cohere',
+    models: [
+      'command-r-plus',
+      'command-r',
+      'command-light'
+    ],
+    color: 'bg-teal-500'
+  },
+  {
     id: 'perplexity',
     name: 'Perplexity',
     models: [
