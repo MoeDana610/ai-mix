@@ -12,19 +12,43 @@ const providers: AIProvider[] = [
   {
     id: 'openai',
     name: 'OpenAI',
-    models: ['gpt-4o', 'gpt-4o-mini', 'gpt-3.5-turbo'],
+    models: [
+      'gpt-5-2025-08-07',
+      'gpt-5-mini-2025-08-07', 
+      'gpt-5-nano-2025-08-07',
+      'gpt-4.1-2025-04-14',
+      'o3-2025-04-16',
+      'o4-mini-2025-04-16',
+      'gpt-4.1-mini-2025-04-14',
+      'gpt-4o',
+      'gpt-4o-mini',
+      'gpt-3.5-turbo'
+    ],
     color: 'bg-green-500'
   },
   {
     id: 'anthropic',
     name: 'Anthropic',
-    models: ['claude-3-opus-20240229', 'claude-3-sonnet-20240229', 'claude-3-haiku-20240307'],
+    models: [
+      'claude-opus-4-20250514',
+      'claude-sonnet-4-20250514',
+      'claude-3-5-haiku-20241022',
+      'claude-3-7-sonnet-20250219',
+      'claude-3-5-sonnet-20241022',
+      'claude-3-opus-20240229',
+      'claude-3-sonnet-20240229',
+      'claude-3-haiku-20240307'
+    ],
     color: 'bg-orange-500'
   },
   {
     id: 'perplexity',
     name: 'Perplexity',
-    models: ['llama-3.1-sonar-small-128k-online', 'llama-3.1-sonar-large-128k-online'],
+    models: [
+      'llama-3.1-sonar-huge-128k-online',
+      'llama-3.1-sonar-large-128k-online',
+      'llama-3.1-sonar-small-128k-online'
+    ],
     color: 'bg-blue-500'
   }
 ];
